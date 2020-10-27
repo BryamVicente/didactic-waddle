@@ -10,7 +10,7 @@ const getDoctors = () => {
     .then(resp => resp.json())
     .then(doctors => renderDoctors(doctors))
 }
-
+  
 const renderDoctors = (doctors) => {
     for(const doctor of doctors) {
         renderDoctor(doctor)
