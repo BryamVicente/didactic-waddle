@@ -13,7 +13,7 @@ const getDoctors = () => {
 
 const renderDoctors = (doctors) => {
     for(const doctor of doctors) {
-        renderDoctor(doctor)
+        renderDoctor(doctor)      
     }
 }
 
